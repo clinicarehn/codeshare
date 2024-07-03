@@ -1,0 +1,118 @@
+.code-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.code-item pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    max-height: 300px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.code-item pre code {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    word-wrap: normal;
+}
+
+.code-item h4 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.code-item h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el contenedor del código */
+.code-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+pre {
+    white-space: pre; /* o pre-wrap */
+}
+
+
+/* Estilos para el botón Copiar Código */
+.copy-btn {
+    margin-top: 10px;
+}
+
+/* Estilos para hacer el navbar más minimalista */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.container {
+    margin-top: 7rem; /* Ajusta el valor en rem según sea necesario */
+}
+
+/* Estilos para el breadcrumb en index.html */
+.breadcrumb {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.breadcrumb-item a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.breadcrumb-item.active {
+    color: #6c757d; /* Color del elemento activo */
+}
+
+/* Estilos para el título principal en index.html */
+.main-title {
+    margin-bottom: 20px; /* Espacio inferior */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el título principal en admin.html */
+.admin .breadcrumb {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.admin .breadcrumb-item a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.admin .breadcrumb-item.active {
+    color: #6c757d; /* Color del elemento activo */
+}
